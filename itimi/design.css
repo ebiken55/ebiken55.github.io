@@ -44,6 +44,7 @@ h1 {
 	background-image:url(https://ebiken55.github.io/itimi/titlebar.png) !important;
 	background-repeat:no-repeat !important;
 	color:#FFF !important;
+	font-size:18pt !important;
 	font-weight:bold !important;
 	padding-top:10px !important;
 	padding-bottom:5px !important;
@@ -55,6 +56,7 @@ h1 {
 	}
 
 h2 {
+	font-size:14pt !important;
 	font-weight:bolder !important;
 	color:#1556AA !important;
 	width:auto !important;
@@ -66,6 +68,7 @@ h2 {
 	}
 	
 h3 {
+	font-size:12pt !important;
 	color:#000000 !important;
 	font-weight:bold !important;
 	background-image:url(https://ebiken55.github.io/itimi/bg_h3.jpg);
