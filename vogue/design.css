@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  Typo
+----------------------------------------------- */
+h1 {
+	font-size:10pt !important;
+	line-height:1.0em !important;
+	margin-bottom:10px !important;
+}
+
+h2 {
+	background-image: -webkit-linear-gradient(left, transparent, #EC6C00 25%, #EC6C00 75%, transparent);
+    background-image: linear-gradient(to right, transparent, #EC6C00 25%, #EC6C00 75%, transparent);
+	text-align:center;
+	text-shadow: 2px 2px 2px #222,-2px 2px 2px #222,2px -2px 2px #222,-2px -2px 2px #222;
+	height:54px !important;
+	padding-top:10px !important;
+	color:#FFF !important;
+}
+
+/*  layout
+----------------------------------------------- */
+
+#header {
+	background-image:url(https://ebiken55.github.io/vogue/makerlogo.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:23px;
+}
+
+#header h1 {
+	font-size:8pt !important;
+	padding-top:5px;
+}
+
+body {
+	text-align: center !important;
+	}
+
+#container {
+	width:960px !important;
+	padding-top:20px !important;
+	margin:0 auto !important;
+	text-align:left !important;
+}
+
+#navigation,#sidebar {
+	display:none;
+}
+
+.nagarehead1 {
+	background-image:url(nagare1.png);
+	background-repeat:no-repeat;
+	height:65px;
+}
+
+.nagarebody {
+	background-image:url(nagare-body.png);
+	background-repeat:repeat-y;
+	padding-top:6px;
+	padding-left:26px;
+	padding-right:26px;
+}
+
+.nagarebottom {
+	background-image:url(nagare-bottom.png);
+	background-repeat:no-repeat;
+	height:15px;
+}
+
+.kadomaru {
+	width:auto;
+	height:32px;
+	padding-top:8px;
+	text-align:center;
+	font-weight:bold;
+	background-color:#069;
+	color:#fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+}
+
+.cc-m-required {
+	width:auto;
+	background-image:url(https://ebiken55.github.io/vogue/hissu.png);
+	background-repeat:no-repeat;
+}
+
+.cc-m-form-view-element {
+	padding-left:45px !important;
+	
+}
+
+div.point,div.point2 {
+	max-width:100% auto;
+	height:auto;
+	border-style:solid;
+	border-width:4px;
+	border-color: #ff0000;
+	padding:10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+}
+
+div.point p {
+	text-align: center;
+	font-size: 26px;
+	color: #ff0000;
+	line-height:1.3em;
+	font-weight:bolder;
+
+}
+
+div.point2 p {
+	text-align: center;
+	font-size: 22px;
+	color: #ff0000;
+	line-height:1.3em;
+	font-weight:bolder;
+
+}
