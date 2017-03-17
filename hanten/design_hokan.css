@@ -1,0 +1,17 @@
+/* CSS Document */
+
+body,h2,div.gj-aside,div.n j-text,p {
+		font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+
+h2 {
+	background-image:url(https://ebiken55.github.io/hanten/h2_back.png);
+	background-repeat:repeat-x;
+	color:#ffffff;
+	alignment-baseline:middle;
+	padding-top:7px;
+	padding-left:10px;
+	height:25px;
+	width:auto;
+	font-weight:bold;
+}
