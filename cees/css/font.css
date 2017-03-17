@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+* {
+	line-height: 1.5em;
+}
+
+p {
+	font-size: 1.2em !important;
+	color: #666;
+}
+
+li {
+	font-size: 0.9em;
+}
+
+a {
+    color:#300;
+    font-style:normal;
+	text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+h1 {
+	font-style: normal;
+	font-size: small;
+}
+
+h2 {
+	height:50px;
+	font-size:14pt !important;
+	font-weight: bold !important;
+	padding-top:25px !important;
+	padding-left:25px !important;
+	background-image:url(https://ebiken55.github.io/cees/img/h2/h2_bg.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#FFF !important;
+	margin-top:25px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	line-height:1.7em !important;
+}
+
+h3 {
+	height:50px;
+	font-size:14pt !important;
+	font-weight: bold !important;
+	padding-top:25px !important;
+	padding-left:25px !important;
+	background-image:url(https://ebiken55.github.io/cees/img/td_h3.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#000 !important;
+	margin-top:25px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	line-height:1.7em !important;
+}
+
+h5 {
+	height:50px;
+	font-size:14pt !important;
+	font-weight: bold !important;
+	padding-left:25px !important;
+	background-image:url(https://ebiken55.github.io/cees/salon/mens_personal/img/h2_td_menper.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#FFF !important;
+	margin-top:15px !important;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	line-height:2.9em !important;
+}
+
+h6 {
+	width:675px !important;
+	height:59px !important;
+	background-image:url(https://ebiken55.github.io/cees/bijikara/img/osusume01.jpg);
+	background-repeat:no-repeat !important;
+	background-position:center !important;
+	font-size:14pt !important;
+	font-weight: bold !important;
+	color:#000 !important;
+	padding-top:30px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;
+	line-height:1.7em !important;
+}
+
+.kouzapoint {
+	width:675px;
+	height:116px;
+	background-image:url(https://ebiken55.github.io/cees/img/td_point.png);
+	background-repeat:no-repeat;
+	font-size:14pt;
+	color:#000;
+	padding-left:135px;
+	padding-top:10px;
+	line-height:1.7em;
+	
+}
+
+.title {
+	clear: both;
+	background: url(../img/td_h2.jpg) no-repeat left bottom;
+	display: block;
+	height: 55px;
+	width: 680px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 55px;
+}
+
+.title a {
+	background: url(../img/td_h2.jpg) no-repeat left bottom;
+	display: block;
+	height: 55px;
+	width: 680px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 55px;
+}
+
+.title_news {
+	clear: both;
+	display: block;
+	height: 45px;
+	width: 322px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 45px;
+}
+
+.title_news a {
+	background: url(../img/td_h2_new.jpg) no-repeat left bottom;
+	display: block;
+	height: 45px;
+	width: 322px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 45px;
+}
+
+.title_men {
+	clear: both;
+	background: url(../img/td_h2_men.jpg) no-repeat left bottom;
+	display: block;
+	height: 55px;
+	width: 680px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 55px;
+}
+
+.title_men a {
+	background: url(../img/td_h2_men.jpg) no-repeat left bottom;
+	display: block;
+	height: 55px;
+	width: 680px;
+	color: #300;
+	text-indent: 15px;
+	line-height: 55px;
+}
+
+.title_helf {
+	clear: both;
+	background: url(../img/td_h3_320.jpg) no-repeat left bottom;
+	display: block;
+	height: 40px;
+	width: 320px;
+	color: #300;
+	text-indent: 5px;
+	line-height: 40px;
+	font-size: medium;
+	text-indent: 1em;
+}
+
+.title_helf a {
+	background: url(../img/td_h3_320.jpg) no-repeat left bottom;
+	display: block;
+	height: 40px;
+	width: 320px;
+	color: #300;
+	text-indent: 5px;
+	line-height: 40px;
+	text-indent: 1em;
+}
+
+.title_sub {
+	background: url(../img/td_h3.png) no-repeat left bottom;
+	display: block;
+	height: 50px;
+	width: 700px;
+	margin: 0 0 5px 0;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+	text-indent: 2em;
+	color: #300;	
+	line-height: 40px;
+	font-size: medium;
+}
+
+.title_sub a {
+	background: url(../img/td_h3.png) no-repeat left bottom;
+	display: block;
+	height: 50px;
+	width: 700px;
+	margin: 0 0 5px 0;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+	text-indent: 2em;
+	color: #300;	
+	line-height: 40px;
+	font-size: medium;
+}
+
+.td_title {
+	background: url(../img/icon_b.gif) no-repeat left;
+	text-indent: 2em;
+	font-weight: bold;
+	font-size: small;
+}
+
+h4 {
+	color: #300;
+	font-size: small;
+	padding: 0 0 1em 0;
+}
+
+h4.priv {
+	color: #666;
+	display: block;
+	background: #fcf6ea;
+	width: 640px;
+	height: 3em;
+	margin: 2.5em 0 1em 20px;
+	padding: 0.5em;
+}
+
+th {
+	text-align: center;
+}
+
+.text_gray {
+	color: #666;
+	border-bottom: #666 1px solid;
+	font-size: small;
+	padding: 0.1em;
+	margin-bottom: 15px;
+}
+
+.osusume a {
+	color: #fff;
+}
+
+.osusume {
+	background: url(../img/osusume01.jpg) no-repeat left bottom;
+	display: block;
+	height: 59px;
+	width: 592px;
+	margin: 30px 0 15px 20px;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+	text-align: center;
+	line-height: 59px;
+	color: #333;	
+}
+
+.menu_osusume {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 1em;
+}
+
+/*============================== 文字の太さ */
+.bold {
+	font-weight: bold;	
+	}
+
+/*============================== 文字の大きさ */
+.text_70 {
+	font-size: 0.7em;
+	line-height: 1.4em;
+	}
+	
+.text_80 {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: #666;
+	}
+	
+.text_90 {
+	font-size: 0.9em;
+	line-height: 1.6em;
+	}
+	
+.text_100 {
+	font-size: 1.2em;
+	margin-top:0px;
+	}
+
+/*============================== 文字の色 */
+.white {
+	color: #FFF !important;
+	}
+
+.brown {
+	color: #300;
+	}
+	
+.pink {
+	color: #fd557f;
+}
+
+.blue {
+	color: #006;
+}

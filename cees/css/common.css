@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* common stylesheet ver1.16*/
+.hidden{visibility: hidden;}
+.clear{clear:both;}
+
+h1,h2,h3,h4,form{margin:0;}
+table,img{border:0;}
+
+.space0{margin:0;padding:0;}
+
+.margin5{margin:5px;}
+.margin10{margin:10px;}
+.margin15{margin:15px;}
+.margin20{margin:20px;}
+.margin25{margin:25px;}
+.margin30{margin:30px;}
+
+.mleft5{margin-left:5px;}
+.mleft10{margin-left:10px;}
+.mleft15{margin-left:15px;}
+.mleft20{margin-left:20px;}
+.mleft25{margin-left:25px;}
+.mleft30{margin-left:30px;}
+
+.mright5{margin-right:5px;}
+.mright10{margin-right:10px;}
+.mright15{margin-right:15px;}
+.mright20{margin-right:20px;}
+.mright25{margin-right:25px;}
+.mright30{margin-right:30px;}
+
+.mupdown5{margin:5px 0;}
+.mupdown10{margin:10px 0;}
+.mupdown15{margin:15px 0;}
+.mupdown20{margin:20px 0;}
+.mupdown30{margin:30px 0;}
+
+.mtop5{margin-top:5px;}
+.mtop10{margin-top:10px;}
+.mtop15{margin-top:15px;}
+.mtop20{margin-top:20px;}
+.mtop25{margin-top:25px;}
+.mtop30{margin-top:30px;}
+.mtop50{margin-top:50px;}
+
+.mbottom2{margin-bottom:2px;}
+.mbottom5{margin-bottom:5px;}
+.mbottom10{margin-bottom:10px;}
+.mbottom15{margin-bottom:15px;}
+.mbottom20{margin-bottom:20px;}
+.mbottom25{margin-bottom:25px;}
+.mbottom30{margin-bottom:30px;}
+.mbottom50{margin-bottom:50px;}
+
+.floatleft{float:left;}
+.floatright{float:right;}
+
+.floatleftm5{float:left; margin:5px;}
+.floatrightm5{float:right; margin:5px;}
+.floatleftm10{float:left; margin:10px;}
+.floatrightm10{float:right; margin:10px;}
+.floatrightm20{float:right; margin:20px;}
+
+.textleft{text-align:left;}
+.textcenter{text-align:center;}
+.textright{text-align:right;}
+
+.valign{vertical-align:middle;}
+.valign_top{vertical-align:top;}
+
+
+textarea{font-size:1em;}
+caption{text-align:left;}
+
+.kome{
+	text-indent:-1em;
+	padding-left:1em;
+}
+
+td ol,td ul{
+margin:0;
+padding:0;
+margin-left:1.5em;
+}
+
+li{	list-style: none;}
+
+.noborder{
+	border:none !important;
+}
+
+/*****CLEARFIX START*****/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content: " "; 
+	clear: both; 
+	height: 0; 
+}
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */ 
+
+/*****CLEARFIX END*****/
