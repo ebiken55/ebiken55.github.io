@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 800px) {
+
+.j-nav-variant-nested li a {
+	width:148px !important;
+	text-align:center !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.j-nav-variant-nested li a:hover {
+	background-image:url(https://ebiken55.github.io/itimi/nav_bg_over.png) !important;
+	background-repeat:no-repeat !important;
+	transition: all 0.0s ease !important;
+}
+
+.j-nav-variant-nested li a.cc-nav-current {
+	background-image:url(https://ebiken55.github.io/itimi/nav_bg_over.png) !important;
+	background-repeat:no-repeat !important;
+}
+
+.j-nav-variant-nested {
+	background-image:url(https://ebiken55.github.io/itimi/nav_bg.png) !important;
+	background-repeat:no-repeat !important;
+}
+
+
+.navigation-colors,.navigation-alignment,.j-nav-variant-nested,.navigation {
+	background-color: rgba(0,0,0,0) !important;
+	
+}
+
+h2 {
+	background-image:url(https://ebiken55.github.io/itimi/h2title.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px !important;
+}
+	
+}
+
+@media screen and (max-width: 799px){
+	
+	h1 {
+	margin-bottom:0px !important;
+	}
+	
+	h2 {
+	font-size:14pt !important;
+	margin-top:17px !important;
+	}
+	
+}
+
+/*  Typo----------------------------------------------- */
+a:link, a:visited{
+	}
+
+a:active {
+	}
+
+a:hover {
+	}
+
+h1 {
+	background-image:url(https://ebiken55.github.io/itimi/titlebar.png) !important;
+	background-repeat:no-repeat !important;
+	color:#FFF !important;
+	font-size:20pt;
+	font-weight:bold !important;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:50px;
+	margin-bottom:15px;
+	width:auto;
+	max-width:100%;
+	height:35px;
+	/* 
+    border-radius: 6px;
+    -webkit-border-radius: 6px;     Safari,Google Chrome用
+    -moz-border-radius: 6px;    Firefox用 */
+	}
+
+h2 {
+	font-size:16pt;
+	font-weight:bolder !important;
+	color:#1556AA !important;
+	width:auto;
+	max-width:100%;
+	border-bottom-style:double;
+	border-bottom-width:3px;
+	border-color:#1556AA;
+	height:30px;
+	}
+	
+h3 {
+	font-size:14pt !important;
+	color:#000000 !important;
+	font-weight:bold !important;
+	background-image:url(https://ebiken55.github.io/itimi/bg_h3.jpg);
+	background-repeat:no-repeat;
+	height:30px;
+	padding-left:30px;
+	padding-top:2px;
+	}
+	
+p {
+	}
+
+.kyoutyo {
+	font-weight:bold;
+	color:#C00 !important;
+}
+
+.kyoutyo2 {
+	font-size:26pt;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight:bolder;
+	color:#C00 !important;
+}
+
+p.conword a:link,p.conword a:visited{
+	color:#039 !important;
+	}
+
+/*  Layout----------------------------------------------- */
+body {
+	}
+
+table {
+	width:100%;
+	max-width:100%;
+}
+
+th {
+	color:#fff !important;
+	font-weight:bold !important;
+	background-color:#4593D0 !important;
+}
+
+table.prof td {
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	border-color:#999;
+	}
+	
+
+#container{
+	}
+	
+#header{
+	}
+	
+#header h1,#header a{
+	}
+	
+#header a:hover {
+	}
+
+#navigation{
+	}
+
+#sidebar{
+	}
+	
+#content{
+	}
+	
+#footer{
+	}
+	
+#footer .gutter {
+	}
+
+
+/*  Navigation----------------------------------------------- */
+
+ul.mainNav1,ul.mainNav2{
+	}
+	
+ul.mainNav1 li,ul.mainNav2 li{
+	}
+	
+ul.mainNav1 li a,ul.mainNav2 li a{
+	}
+
+ul.mainNav1 li a {
+	}
+
+ul.mainNav2 li a {
+	}
+
+ul.mainNav3 li a {
+	}
+
+ul.mainNav1 a:hover{
+	}
+	
+ul.mainNav1 a.current {
+	}
