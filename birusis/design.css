@@ -1,0 +1,533 @@
+/* パソコンサイズ */
+
+@media screen and (min-width: 800px) {
+	
+div.smh {
+	display:none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:#1A4CC5;
+}
+a:active { 	text-decoration: none; }
+a:hover { text-decoration: none; }
+
+h1#cc-m-header-10636906498 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/hbg1.jpg);	
+}
+
+h1#cc-m-header-10636907998 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/hbg2.jpg);	
+}
+
+h1#cc-m-header-10636961698 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/hbg3.jpg);	
+}
+
+h1#cc-m-header-10636909698 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/hbg4.jpg);	
+}
+
+h1.n {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/hbg.jpg);	
+}
+
+h1,h1.n {
+	font:bold 32px/140% "Trebuchet MS", Verdana, sans-serif;
+	background-repeat:no-repeat;
+	width:930px;
+	height:95px;
+	color:#333;
+	margin-top:35px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-top:35px;
+	padding-left:40px;
+	padding-bottom:0px !important;
+}
+
+h2 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/h2bg.png);
+	background-repeat:no-repeat;
+	width:100%;
+	height:60px;
+	color:#000 !important;
+	padding-top:8px;
+	padding-left:50px;
+	margin-top:20px;
+}
+
+h3 {
+	width:45%;
+	font-size:18pt;
+	font-weight:bold;
+	padding-left:30px;
+	padding-top:5px;
+	color:#000;
+	height:37px;
+	margin-bottom:10px;
+	border-style:double;
+	border-color:#069;
+	border-bottom-width:3px;
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/h3bg.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+p {
+	font: 16px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height:1.5em !important;
+}
+
+.fudemoji {
+	font-size:16pt;
+	font-family:"fudemoji";
+}
+
+@font-face {
+    font-family: 'fudemoji';
+    src: url('https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/DFGYS7J.ttc') format('truetype');
+}
+
+
+/*  Layout
+----------------------------------------------- */
+html {
+	height:100%;
+}
+
+body {
+    /* background: url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/bg.jpg) no-repeat top center; */
+	background-attachment:fixed;
+    margin:0;
+    font: 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height:100%;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.obi {
+	width:100%;
+	margin:0 auto;
+	height:30px;
+	background-color:#99C775;
+}
+
+.obi div {
+	font-size:8pt;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+}
+
+#container
+{
+    margin:0 auto;
+    width:980px;
+}
+
+#header
+{
+	height:145px;
+}
+
+#logoimg {
+	float:left;
+	margin-top:38px;
+}
+
+#txtlink1 {
+	float:right;
+	margin-top:38px;
+	font-size:9pt;
+}
+
+#header a:hover { text-decoration:none;  }
+
+
+#navigation
+{
+    display: inline;
+    float: left;
+    width:980px;
+}
+
+
+#sidebar
+{
+	
+}
+
+#content
+{
+    width:980px;
+	padding-top:17px;
+	padding-bottom:17px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#cc-m-10674636598 a:hover,#cc-m-10674636698 a:hover,#cc-m-10674636798 a:hover,#cc-m-10674636898 a:hover {
+	filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+	/*-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;*/
+    transition: 0.2s;
+}
+
+#footer
+{
+    clear:both;
+    margin:0 auto;
+	width:980px;
+	margin-top:20px;
+}
+
+#footer .gutter 
+{
+	
+}
+
+.bgwhite {
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:30px;
+	width:100%;
+	background-color:#F0F7EB;
+	height:100%;
+	min-height: 100%;
+}
+
+table.original {
+	font-size:16px;
+	width:100%;
+	max-width:100%;
+	border-spacing:2px;
+}
+
+table.original th {
+	text-align:center;
+	background-color:#00A2DE;
+	color:#FFF;
+	width:30%;
+}
+
+table.original th,table.original td {
+	padding:10px;
+	border:1px #ccc solid;
+}
+
+table.original td {
+	background-color:#FFF;
+}
+
+/*  Navigation
+----------------------------------------------- */
+
+ul.mainNav1,
+ul.mainNav2
+{
+	height:25px;
+    margin-top:0px;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:30px;
+    padding:0;
+}
+
+
+ul.mainNav1 li,
+ul.mainNav2 li
+{
+	width:163px;
+    display: inline;
+	float: left;
+}
+
+
+ul.mainNav1 li a,
+ul.mainNav2 li a
+{
+    display:inline-block;
+	width:163px;
+	height:25px;
+	text-align:center;
+	font-size:14pt !important;
+    text-decoration: none;
+    color:#333;
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/button1.png);
+	background-repeat:no-repeat;
+	background-position:center !important;
+	/*-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;*/
+    transition: 0.5s;
+}
+
+ul.mainNav1 a:hover
+{
+	filter:alpha(opacity=30);
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    color:#333;
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/button2.png);
+	background-repeat:no-repeat;
+	background-position:center !important;
+	/*-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;*/
+    transition: 0.5s;
+}
+
+ul.mainNav1 a.current {
+	font-weight:bold;
+	filter:alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/button2.png);
+	background-repeat:no-repeat;
+	/*-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;*/
+    transition: 0.5s;
+
+ }
+ 
+}
+
+
+/* モバイルサイズ */
+
+@media screen and (max-width: 799px) {
+	
+div.smh {
+	display:block;
+}
+	
+a:link, a:visited
+{
+    text-decoration: none;
+    color:#1A4CC5;
+}
+a:active { 	text-decoration: none; }
+a:hover { text-decoration: none; }
+
+h1#cc-m-header-10636906498 {
+	
+}
+
+h1#cc-m-header-10636907998 {
+	
+}
+
+h1#cc-m-header-10636961698 {
+		
+}
+
+h1#cc-m-header-10636909698 {
+		
+}
+
+h1.n {
+	
+}
+
+h1,h1.n {
+	color:#000 !important;
+}
+
+h2 {
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/h2bg.png);
+	background-repeat:no-repeat;
+	font-size:18pt !important;
+	width:100%;
+	height:36px;
+	color:#000 !important;
+	padding-top:6px;
+	padding-left:50px;
+	margin-top:15px;
+}
+
+h3 {
+	color:#000 !important;
+	overflow:auto !important;
+	width:100% !important;
+	font-size:16pt !important;
+	font-weight:bold;
+	padding-left:30px;
+	color:#000;
+	margin-bottom:10px;
+	background-image:url(https://dl.dropboxusercontent.com/u/48035701/hp_mate/birusis/h3bg.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+p {
+	font-size:14pt !important;
+}
+
+.fudemoji {
+}
+
+
+/*  Layout
+----------------------------------------------- */
+html {
+	
+}
+
+body {
+    margin:0;
+}
+
+.obi {
+	width:100%;
+	margin:0 auto;
+	height:30px;
+	background-color:#99C775;
+}
+
+.obi div {
+	font-size:8pt;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+}
+
+#container
+{
+    margin:0 auto;
+    width:100%;
+}
+
+#header
+{
+}
+
+#logoimg {
+	display:none;
+}
+
+#txtlink1 {
+	float:right;
+	margin-top:38px;
+	font-size:9pt;
+}
+
+#header a:hover { text-decoration:none;  }
+
+
+#navigation
+{
+	display:none;
+}
+
+
+#sidebar
+{
+	
+}
+
+#content
+{
+}
+
+#footer
+{
+	display:none;
+}
+
+#footer .gutter 
+{
+	
+}
+
+.bgwhite {
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:30px;
+	width:100%;
+	background-color:#F0F7EB;
+	height:100%;
+	min-height: 100%;
+}
+
+table.original {
+	font-size:16px;
+	width:100%;
+	max-width:100%;
+	border-spacing:2px;
+}
+
+table.original th {
+	text-align:center;
+	background-color:#00A2DE;
+	color:#FFF;
+	width:30%;
+}
+
+table.original th,table.original td {
+	padding:10px;
+	border:1px #ccc solid;
+}
+
+table.original td {
+	background-color:#FFF;
+}
+
+
+/*  Navigation
+----------------------------------------------- */
+
+ul.mainNav1,
+ul.mainNav2
+{
+}
+
+
+ul.mainNav1 li,
+ul.mainNav2 li
+{
+}
+
+
+ul.mainNav1 li a,
+ul.mainNav2 li a
+{
+}
+
+ul.mainNav1 a:hover
+{
+}
+
+ul.mainNav1 a.current {
+
+ }
+
+	
+}

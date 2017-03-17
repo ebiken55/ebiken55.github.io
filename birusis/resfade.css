@@ -1,0 +1,93 @@
+/* .viewer
+------------------------- */
+.viewer {
+    margin: 0 auto;
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+	list-style:none !important;
+	height: 95% !important;
+}
+.viewer ul {
+    width: 100% !important;
+    overflow: hidden;
+    position: relative;
+}
+.viewer ul li {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    position: absolute;
+}
+.viewer ul li img {
+    width: auto !important;
+	max-width: 100% !important;
+}
+
+ 
+/* sideNavi
+------------------------- */
+.viewer .btnPrev,
+.viewer .btnNext {
+    margin-top: -25px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 101;
+}
+.viewer .btnPrev {
+    left: 10px;
+    background: #ccc url(../img/btnPrev.jpg) no-repeat center center;
+}
+.viewer .btnNext {
+    right: 10px;
+    background: #ccc url(../img/btnNext.jpg) no-repeat center center;
+}
+ 
+ 
+/* =======================================
+    ClearFixElements
+======================================= */
+.viewer ul:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+ 
+.viewer ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 799px) {
+
+.viewer {
+    margin: 0 auto;
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+	list-style:none !important;
+}
+.viewer ul {
+    width: 100% !important;
+    overflow: hidden;
+    position: relative;
+}
+.viewer ul li {
+    top: 0 !important;
+    left: 0 !important;
+    width: 90% !important;
+    position: absolute;
+}
+.viewer ul li img {
+    width: auto !important;
+	max-width: 100% !important;
+}
+
+
+	
+}
