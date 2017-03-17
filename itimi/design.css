@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 /* CSS Document */
 
 @media screen and (min-width: 800px) {
@@ -39,6 +39,45 @@ h2 {
 	background-position:left;
 	padding-left:30px !important;
 }
+
+h1 {
+	background-image:url(https://ebiken55.github.io/itimi/titlebar.png) !important;
+	background-repeat:no-repeat !important;
+	color:#FFF !important;
+	font-size:18pt !important;
+	font-weight:bold !important;
+	padding-top:10px !important;
+	padding-bottom:5px !important;
+	padding-left:50px !important;
+	margin-bottom:15px !important;
+	width:auto !important;
+	max-width:100% !important;
+	height:35px !important;
+	}
+
+h2 {
+	font-size:14pt !important;
+	font-weight:bolder !important;
+	color:#1556AA !important;
+	width:auto !important;
+	max-width:100% !important;
+	border-bottom-style:double !important;
+	border-bottom-width:3px !important;
+	border-color:#1556AA !important;
+	height:30px !important;
+	}
+	
+h3 {
+	font-size:12pt !important;
+	color:#000000 !important;
+	font-weight:bold !important;
+	background-image:url(https://ebiken55.github.io/itimi/bg_h3.jpg);
+	background-repeat:no-repeat !important;
+	height:30px !important;
+	padding-left:30px !important;
+	padding-top:2px !important;
+	}
+
 	
 }
 
@@ -63,48 +102,6 @@ a:active {
 	}
 
 a:hover {
-	}
-
-h1 {
-	background-image:url(https://ebiken55.github.io/itimi/titlebar.png) !important;
-	background-repeat:no-repeat !important;
-	color:#FFF !important;
-	font-size:20pt;
-	font-weight:bold !important;
-	padding-top:10px;
-	padding-bottom:5px;
-	padding-left:50px;
-	margin-bottom:15px;
-	width:auto;
-	max-width:100%;
-	height:35px;
-	/* 
-    border-radius: 6px;
-    -webkit-border-radius: 6px;     Safari,Google Chrome用
-    -moz-border-radius: 6px;    Firefox用 */
-	}
-
-h2 {
-	font-size:16pt;
-	font-weight:bolder !important;
-	color:#1556AA !important;
-	width:auto;
-	max-width:100%;
-	border-bottom-style:double;
-	border-bottom-width:3px;
-	border-color:#1556AA;
-	height:30px;
-	}
-	
-h3 {
-	font-size:14pt !important;
-	color:#000000 !important;
-	font-weight:bold !important;
-	background-image:url(https://ebiken55.github.io/itimi/bg_h3.jpg);
-	background-repeat:no-repeat;
-	height:30px;
-	padding-left:30px;
-	padding-top:2px;
 	}
 	
 p {
