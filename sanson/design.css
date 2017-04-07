@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (min-width: 800px) {
+
+.jtpl-header {
+	height:550px !important;
+}
+
+.jtpl-logo {
+	padding-top:35px !important;
+}
+
+}
