@@ -6,8 +6,10 @@ h1 {
 	background-image:url(https://ebiken55.github.io/sakamoto/titlebarh1.png);
 	font-weight:bold !important;
 	color:#FFF !important;
+	padding-left:30px;
+	padding-top:10px;
 	width:950px;
-	height:63px;
+	height:53px;
 }
 
 h2 {
