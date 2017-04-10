@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-size:22pt !important;
+	font-weight:bold !important;
+	color:#F00 !important;
+}
+
+h2 {
+	height:55px !important;
+	background-image:url(https://ebiken55.github.io/sakamoto/titlebar_h2.png);
+	background-repeat:no-repeat;
+	color:#FFF !important;
+	font-weight:bold !important;
+	font-size:18pt !important;
+	padding-left:10px !important;
+	padding-top:4px !important;
+	text-shadow: 2px 2px 2px #222;
+	}
+	
+hr {
+	border-color:#999 !important;
+	border-style:dotted !important;
+}
+
+.j-checkout__shipping-address-checkbox {
+    display:none !important;
+}
+
+#billing_country_field {
+    display:none !important;      
+}
+
+p.j-checkout__warning {
+	color: #ff0000 !important;
+	font-weight:bold !important;
+}
