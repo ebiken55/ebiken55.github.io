@@ -4,6 +4,7 @@
 h1 {
 	font-size:22pt !important;
 	background-image:url(https://ebiken55.github.io/sakamoto/titlebarh1.png);
+	background-repeat:none;
 	font-weight:bold !important;
 	color:#FFF !important;
 	padding-left:30px;
