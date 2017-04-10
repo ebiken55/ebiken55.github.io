@@ -3,9 +3,11 @@
 
 h1 {
 	font-size:22pt !important;
+	background-image:url(https://ebiken55.github.io/sakamoto/titlebarh1.png);
 	font-weight:bold !important;
 	color:#FFF !important;
-	height:50px;
+	width:950px;
+	height:63px;
 }
 
 h2 {
