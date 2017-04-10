@@ -4,7 +4,8 @@
 h1 {
 	font-size:22pt !important;
 	font-weight:bold !important;
-	color:#F00 !important;
+	color:#FFF !important;
+	height:50px;
 }
 
 h2 {
