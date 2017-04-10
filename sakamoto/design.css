@@ -26,6 +26,8 @@ h2 {
 	
 hr {
 	border-color:#999 !important;
+	border-style:dotted;
+	border-width:1px;
 }
 
 .j-checkout__shipping-address-checkbox {
