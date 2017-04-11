@@ -31,10 +31,13 @@ h2 {
 	}
 
 ｈ3 {
+	width:auto;
 	height:55px !important;
 	background-color:#FDD000;
 	border-radius: 20px;
 	padding:5px;
+	margin-top:10px;
+	margin-bottom:5px;
 }
 
 hr {
