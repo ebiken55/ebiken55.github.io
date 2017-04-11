@@ -29,7 +29,14 @@ h2 {
 	padding-top:4px !important;
 	text-shadow: 2px 2px 2px #222;
 	}
-	
+
+ｈ3 {
+	height:55px !important;
+	background-color:#FDD000;
+	border-radius: 20px;
+	padding:5px;
+}
+
 hr {
 	border-color:#999 !important;
 	border-style:dotted;
