@@ -1,3 +1,11 @@
-div.jtpl-title jqbga-container jqbga-web--image {
+div.jtpl-title {
+  display:none !important;
+}
+
+div.jqbga-container {
+  display:none !important;
+}
+
+div.jqbga-web--image {
   display:none !important;
 }
