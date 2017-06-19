@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.cc-indexpage,.jtpl-title {
+.cc-indexpage {
   display:none !important;
 }
