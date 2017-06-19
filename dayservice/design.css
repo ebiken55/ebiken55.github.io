@@ -2,5 +2,5 @@
 /* CSS Document */
 
 .jqbga-web--image,.jqbga-container,.jtpl-title {
-  display:none;
+  display:none !important;
 }
