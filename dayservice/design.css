@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.jqbga-web--image,.jqbga-container {
+.jqbga-web--image,.jqbga-container,.jtpl-title {
   display:none;
 }
