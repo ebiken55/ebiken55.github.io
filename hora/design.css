@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kyujin {
+	width:100%;
+	max-width:100%;
+	margin:0 auto;
+}
+
+.kyujin td {
+	color:#000 !important;
+	margin:0px !important;
+	padding:10px !important;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#666 !important;
+	background-color:#FFF !important;
+}
+
+td.koumoku {
+	background-color:#999 !important;
+	color:#000 !important;
+}
+
+h1 {
+	background-image:url(https://ebiken55.github.io/hora/h1bg.png) !important;
+	background-repeat:no-repeat !important;
+	width:100% auto !important;
+	height:60px !important;
+	color:#fff !important;
+	font-size:28pt !important;
+	font-weight:bolder !important;
+	padding-top:15px !important;
+	padding-left:15px !important;
+	text-shadow:
+		0px 0px #000,
+		0px 0px #000,
+		-1px 2px #000,
+		1px 2px #000;
+}
+
+h2 {
+	background-image:url(https://ebiken55.github.io/hora/h2bg.png) !important;
+	background-repeat:no-repeat !important;
+	width:100% auto !important;
+	height:60px !important;
+	color:#000 !important;
+	font-weight:bold !important;
+	font-size:22pt !important;
+	padding-top:12px !important;
+	padding-left:10px !important;
+	text-shadow:
+		-1px -1px #fff,
+		1px -1px #fff,
+		-1px 1px #fff,
+		1px 1px #fff;
+}
+
+h3 {
+	background-image:url(https://ebiken55.github.io/hora/h3bg.png) !important;
+	background-repeat:no-repeat !important;
+	width:100% auto !important;
+	height:48px !important;
+	font-weight:bold !important;
+	font-size:18pt !important;
+	padding-top:12px !important;
+	padding-left:17px !important;
+	text-shadow:
+		-1px -1px #000,
+		1px -1px #000,
+		-1px 1px #000,
+		1px 1px #000;
+}
+
+p {
+	font-weight:bolder !important;
+	text-shadow:
+		-1px -1px #000,
+		1px -1px #000,
+		-1px 1px #000,
+		1px 1px #000;
+}
+
+p a {
+	color:#F90 !important;
+}
+
+ul.cc-nav-level-0 li a{
+	font-weight:bolder !important;
+	text-shadow:
+		-1px -1px #000,
+		1px -1px #000,
+		-1px 1px #000,
+		1px 1px #000;
+}
