@@ -1,3 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1 {
+	background-image:url(https://ebiken55.github.io/io/h1.png) !important;
+	background-repeat:no-repeat !important;
+	height:61px !important;
+	width:100% !important;
+}
