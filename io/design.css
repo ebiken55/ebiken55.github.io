@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (min-width: 800px) {
 h1 {
 	background-image:url(https://ebiken55.github.io/io/h1.png) !important;
 	background-repeat:no-repeat !important;
@@ -23,4 +24,34 @@ h2 {
 	font-size:18pt !important;
 	padding-top:11px !important;
 	text-align:center !important;
+}
+
+}
+
+@media screen and (max-width: 799px) {
+
+h1 {
+	background-image:url(https://ebiken55.github.io/io/h1.png) !important;
+	background-repeat:no-repeat !important;
+	height:61px !important;
+	width:100% !important;
+	color:#FFF !important;
+	font-weight:bold !important;
+	font-size:20pt !important;
+	padding-top:16px !important;
+	padding-left:30px !important;
+}
+
+h2 {
+	background-image:url(https://ebiken55.github.io/io/h2.png) !important;
+	background-repeat:no-repeat !important;
+	height:50px !important;
+	width:100% !important;
+	color:#FFF !important;
+	font-weight:bold !important;
+	font-size:18pt !important;
+	padding-top:11px !important;
+	text-align:center !important;
+}
+	
 }
