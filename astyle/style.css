@@ -4,3 +4,11 @@
 .jtpl-content  {
       background-color: rgba(179,0,0,.5);
 }
+
+.jtpl-sidebar  {
+      background-color: rgba(139,0,0,.5);
+}
+
+.jtpl-footer  {
+      background-color: rgba(123,123,123,.5);
+}
