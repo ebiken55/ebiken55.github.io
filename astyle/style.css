@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
+.jtpl-content  {
+      background-color: rgba(179,46,0,.8);
+}
