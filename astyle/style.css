@@ -16,3 +16,12 @@
 .j-website-title-content {
     text-align: center;
 }
+
+h1 {
+      color:#0066b7 !important;
+      font-weight:bold !important;
+    text-shadow: 2px 2px 1px #000,
+             -2px 2px 1px #000,
+             2px -2px 1px #000,
+             -2px -2px 1px #000;
+}
