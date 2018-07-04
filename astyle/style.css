@@ -20,8 +20,8 @@
 h1 {
       color:#0066b7 !important;
       font-weight:bold !important;
-    text-shadow: 2px 2px 1px #fff,
-             -2px 2px 1px #fff,
-             2px -2px 1px #fff,
-             -2px -2px 1px #fff;
+    text-shadow: 3px 3px 5px #fff,
+             -3px 3px 5px #fff,
+             3px -3px 5px #fff,
+             -3px -3px 5px #fff;
 }
