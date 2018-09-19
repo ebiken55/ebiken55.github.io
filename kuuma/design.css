@@ -35,3 +35,11 @@
 	background-color:#E0F0F5 !important;
 	
 }
+
+/**
+ * mainvisual
+ */
+.mainvisual {
+  overflow-x: hidden;
+}	
+
