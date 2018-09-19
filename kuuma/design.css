@@ -5,6 +5,10 @@
     height: 50px !important;
 }
 
+div.su-slider {
+  max-height: 550px !important;
+}
+
 /**
  * swiper.js
  */
