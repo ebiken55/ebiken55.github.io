@@ -8,6 +8,11 @@
 /**
  * swiper.js
  */
+
+div.swiper-slide img {
+    max-width: 100% !important;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
