@@ -46,3 +46,34 @@ div.swiper-slide img {
   overflow-x: hidden;
 }	
 
+	a.cp_btn {
+	clear:both;
+	margin:0px auto;
+	display: block;
+	text-decoration:none;
+	width: 50%;
+	padding: 0.6em;
+	text-align: center;
+	color: #FFF;
+	border-radius: 4px;
+	overflow: hidden;
+		font-size:16pt;
+	}
+
+	.c1 {
+	background: #ff0000;
+	}
+	
+	.c2 {
+	background: #54BF00;
+	}
+	
+a.cp_btn span {
+	display:inline-block;
+	transition: .5s
+	}
+
+a.cp_btn:hover span {
+transform: rotateX(360deg);
+	color: #FFF;
+}
