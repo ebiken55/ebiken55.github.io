@@ -2,6 +2,7 @@
 /* CSS Document */
 
 .table1 {
+	border-spacing:0px;
 }
 
 .table1 td,.table1 th {
@@ -15,7 +16,7 @@
 }
 
 .table1 td {
-	padding:5px;
+	padding:0px;
 }
 
 .jtpl-slope {
