@@ -2,5 +2,78 @@
 /* CSS Document */
 
 .jtpl-slope {
-    height: auto !important;
+    height: 50px !important;
+}
+
+/**
+ * swiper.js
+ */
+
+div.swiper-slide img {
+    max-width: 100% !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  fill: #fff;
+  stroke: none;
+  stroke-width: 0;
+  z-index: 10000;
+  width: 20px;
+  margin-top: -18px;
+  background-image: none;
+}
+
+.swiper-pagination-bullet-active {
+	background-color:#fff;
+}
+
+.swiper-slide-prev,.swiper-slide-next {
+	background-color:#fff !important;
+	
+}
+
+/**
+ * mainvisual
+ */
+.mainvisual {
+  overflow-x: hidden;
+}	
+
+a.cp_btn {
+	clear:both;
+	margin:0px auto;
+	display: block;
+	text-decoration:none;
+	width: 70%;
+	padding: 0.7em;
+	text-align: center;
+	color: #FFF;
+	border-radius: 4px;
+	overflow: hidden;
+	font-size:4vw;
+}
+
+	.c1 {
+	background: #ff0000;
+	}
+	
+	.c2 {
+	background: #54BF00;
+	}
+	
+a.cp_btn span {
+	display:inline-block;
+	transition: .5s
+	}
+
+a.cp_btn:hover span {
+transform: rotateX(360deg);
+	color: #FFF;
 }
