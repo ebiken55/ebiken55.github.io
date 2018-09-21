@@ -1,6 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
+.table1 {
+	max-width:100%;
+}
+
+.table1 td,.table1 th {
+	border-style:solid;
+	border-width:1px;
+	border-color:#666;
+}
+
+.table1 th {
+	background-color:#eee;
+}
+
+.table1 td {
+	padding:5px;
+}
+
 .jtpl-slope {
     height: 50px !important;
 }
