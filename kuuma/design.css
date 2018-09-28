@@ -46,19 +46,19 @@ div.swiper-slide img {
   overflow-x: hidden;
 }	
 
+@media screen and (max-width: 799px) {
 a.cp_btn {
 	clear:both;
 	margin:0px auto;
 	display: block;
 	text-decoration:none;
-	width: 70%;
+	width: 100%;
 	padding: 0.7em;
 	text-align: center;
 	color: #FFF;
 	border-radius: 4px;
 	overflow: hidden;
-	font-size:4vw;
-	line-height:1.5em;
+	font-size:6vw;
 }
 
 	.c1 {
@@ -77,4 +77,39 @@ a.cp_btn span {
 a.cp_btn:hover span {
 transform: rotateX(360deg);
 	color: #FFF;
+}
+}
+
+@media screen and (min-width: 800px) {
+a.cp_btn {
+	clear:both;
+	margin:0px auto;
+	display: block;
+	text-decoration:none;
+	width: 70%;
+	padding: 0.7em;
+	text-align: center;
+	color: #FFF;
+	border-radius: 4px;
+	overflow: hidden;
+	font-size:4vw;
+}
+
+	.c1 {
+	background: #ff0000;
+	}
+	
+	.c2 {
+	background: #54BF00;
+	}
+	
+a.cp_btn span {
+	display:inline-block;
+	transition: .5s
+	}
+
+a.cp_btn:hover span {
+transform: rotateX(360deg);
+	color: #FFF;
+}
 }
