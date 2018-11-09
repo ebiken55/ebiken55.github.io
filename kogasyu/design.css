@@ -58,7 +58,8 @@ h3 {
 
 /*** レスポンシブテーブルデザイン ***/
 .shokai{
-  width:10%;
+  margin:0px auto;
+  width:90%;
   border: 2px solid #d6ceb4;
   overflow: hidden;
   word-break: break-all;
