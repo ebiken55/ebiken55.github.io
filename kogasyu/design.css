@@ -1,45 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (min-width: 800px) {
-
-h1 {
-	padding-top: 60px !important;
-	padding-bottom: 30px !important;
-}
-	
-	
-.c1 {
-	background: #1A9C5C;
-	}
-	
-.c2 {
-	background: #1A9C5C;
-	}
-	
-}
-
-
-.table1 {
-	border-spacing:0px;
-	width:100%;
-}
-
-.table1 td,.table1 th {
-	border-style:solid;
-	border-width:1px;
-	border-color:#666;
-}
-
-.table1 th {
-	background-color:#eee;
-	padding:5px;
-}
-
-.table1 td {
-	padding:5px;
-}
-
 .jtpl-slope {
     height: 50px !important;
 }
@@ -80,6 +41,38 @@ transform: rotateX(360deg);
 	color: #FFF;
 }
 
+@media screen and (max-width: 799px) {
+.shokai th{
+  width:100%;
+  display:block;
+  margin: 0 auto;
+  border:none;
+  border-radius: 3px;
+}
+.shokai td{
+  display: list-item;
+  width: 100%;
+  border-top: none !important;
+}
+}/* end */
+
+
+@media screen and (min-width: 800px) {
+
+h1 {
+	padding-top: 60px !important;
+	padding-bottom: 30px !important;
+}
+	
+	
+.c1 {
+	background: #1A9C5C;
+	}
+	
+.c2 {
+	background: #1A9C5C;
+	}
+	
 /*** レスポンシブテーブルデザイン ***/
 .shokai{
   width:100%;
@@ -116,20 +109,5 @@ overflow: hidden;
 word-break: break-all;
 word-wrap: break-word;
 }
-
+	
 }
-
-@media screen and (max-width: 700px) {
-.shokai th{
-  width:100%;
-  display:block;
-  margin: 0 auto;
-  border:none;
-  border-radius: 3px;
-}
-.shokai td{
-  display: list-item;
-  width: 100%;
-  border-top: none !important;
-}
-}/* end */
