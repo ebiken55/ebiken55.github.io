@@ -81,7 +81,7 @@ word-wrap: break-word;
 }
 	
 .shokai th{
-  width:100%;
+  width:auto;
   display:block;
   margin: 0 auto;
   border:none;
@@ -89,7 +89,7 @@ word-wrap: break-word;
 }
 .shokai td{
   display: list-item;
-  width: 100%;
+  width: auto;
   border-top: none !important;
 }
 	
