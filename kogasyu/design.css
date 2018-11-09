@@ -46,7 +46,7 @@ transform: rotateX(360deg);
 
 /*** レスポンシブテーブルデザイン ***/
 .shokai{
-  width:95%;
+  width:10%;
   border: 2px solid #d6ceb4;
   overflow: hidden;
   word-break: break-all;
@@ -55,8 +55,6 @@ transform: rotateX(360deg);
  
 .shokai th{
   padding: 6px 8px 5px;
-  border-top: solid 1px #ffffff;
-  width: 20%;
   overflow: hidden;
   color: #13131e;
   font-style: normal;
@@ -68,19 +66,7 @@ transform: rotateX(360deg);
   vertical-align: top;
   background-color: #eeece4;
 }
- 
-.shokai td{
-padding: 5px 10px;
-text-align: left;
-vertical-align: top;
-color: #595960;
-background-color: #ffffff;
-border-top: dotted 1px #e0dccc;
-overflow: hidden;
-word-break: break-all;
-word-wrap: break-word;
-}
-	
+
 .shokai th{
   width:auto;
   display:block;
@@ -88,6 +74,18 @@ word-wrap: break-word;
   border:none;
   border-radius: 3px;
 }
+ 
+.shokai td{
+padding: 5px 10px;
+text-align: left;
+vertical-align: top;
+color: #595960;
+background-color: #ffffff;
+overflow: hidden;
+word-break: break-all;
+word-wrap: break-word;
+}
+
 .shokai td{
   display: list-item;
   width: auto;
