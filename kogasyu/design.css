@@ -110,7 +110,9 @@ overflow: hidden;
 word-break: break-all;
 word-wrap: break-word;
 }
- 
+
+}
+
 @media (max-width: 400px){
 .shokai th{
   width:100%;
@@ -125,5 +127,3 @@ word-wrap: break-word;
   border-top: none !important;
 }
 }/* end */
-
-}
