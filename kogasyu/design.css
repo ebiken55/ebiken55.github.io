@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width: 799px) {
+@media screen and (min-width: 800px) {
 
 .c1 {
 	background: #1A9C5C;
@@ -113,7 +113,7 @@ word-wrap: break-word;
 
 }
 
-@media (max-width: 400px){
+@media screen and (max-width: 799px) {
 .shokai th{
   width:100%;
   display:block;
