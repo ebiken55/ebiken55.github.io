@@ -102,10 +102,15 @@ h1 {
 	padding-top: 60px !important;
 	padding-bottom: 30px !important;
 }
-
-h3 {
+	
+h2 {
 	padding-top: 40px !important;
 	padding-bottom: 20px !important;
+}
+
+h3 {
+	padding-top: 30px !important;
+	padding-bottom: 15px !important;
 }
 	
 .c1 {
