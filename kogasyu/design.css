@@ -73,3 +73,57 @@ a.cp_btn:hover span {
 transform: rotateX(360deg);
 	color: #FFF;
 }
+
+/*** レスポンシブテーブルデザイン ***/
+.shokai{
+  width:100%;
+  border: 2px solid #d6ceb4;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+ 
+.shokai th{
+  padding: 6px 8px 5px;
+  border-top: solid 1px #ffffff;
+  width: 30%;
+  overflow: hidden;
+  color: #13131e;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: left;
+  word-break: break-all;
+  word-wrap: break-word;
+  vertical-align: top;
+  background-color: #eeece4;
+}
+ 
+.shokai td{
+padding: 5px 10px;
+text-align: left;
+vertical-align: top;
+color: #595960;
+background-color: #ffffff;
+border-top: dotted 1px #e0dccc;
+overflow: hidden;
+word-break: break-all;
+word-wrap: break-word;
+}
+ 
+@media (max-width: 400px){
+.shokai th{
+  width:100%;
+  display:block;
+  margin: 0 auto;
+  border:none;
+  border-radius: 3px;
+}
+.shokai td{
+  display: list-item;
+  width: 100%;
+  border-top: none !important;
+}
+}/* end */
+
+}
