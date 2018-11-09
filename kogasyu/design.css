@@ -144,7 +144,7 @@ h3 {
 .shokai th{
   padding: 6px 8px 5px;
   border-top: solid 1px #ffffff;
-  width: 20%;
+  width: auto;
   overflow: hidden;
   color: #13131e;
   font-style: normal;
