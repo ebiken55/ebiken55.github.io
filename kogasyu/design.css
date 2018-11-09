@@ -44,6 +44,18 @@ transform: rotateX(360deg);
 
 @media screen and (max-width: 799px) {
 
+h1 {
+	font-weight:bold;
+}
+	
+h2 {
+	font-weight:bold;
+}
+
+h3 {
+	font-weight:bold;
+}
+
 /*** レスポンシブテーブルデザイン ***/
 .shokai{
   width:10%;
