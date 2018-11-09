@@ -63,7 +63,11 @@ h1 {
 	padding-top: 60px !important;
 	padding-bottom: 30px !important;
 }
-	
+
+h3 {
+	padding-top: 40px !important;
+	padding-bottom: 20px !important;
+}
 	
 .c1 {
 	background: #1A9C5C;
