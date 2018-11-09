@@ -139,7 +139,6 @@ h3 {
   border: 2px solid #d6ceb4;
   overflow: hidden;
   word-break: break-all;
-  word-wrap: break-word;
 }
  
 .shokai th{
@@ -153,7 +152,7 @@ h3 {
   font-size: 100%;
   text-align: left;
   word-break: break-all;
-  word-wrap: break-word;
+  word-wrap:nowrap;
   vertical-align: top;
   background-color: #eeece4;
 }
