@@ -3,6 +3,12 @@
 
 @media screen and (min-width: 800px) {
 
+h1 {
+	padding-top: 100px !important;
+	padding-bottom: 50px !important;
+}
+	
+	
 .c1 {
 	background: #1A9C5C;
 	}
